@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+  }
+ .bgimg{
+    position: relative;
+    color: black;
+    padding-top: 60px;
+ }
+ .centered{
+position: absolute;
+top: 40%;
+left: 37%;
+font-family: Arial, Helvetica, sans-serif;
+font-size: x-large;
+color:#3e3e52;
+ }
+ /* .main{
+    position: relative;
+ } */
+ .anmtnX{
+  height: 280px;
+  width:100%;
+ }
+ .anmtnX:hover{
+        transform: scale(2,2);
+        transition: 2s;
+
+}
+.styling{
+        height: 280px;
+        /* width: 400px; */
+        width: 100%;
+        border-radius: 35px;
+        overflow: hidden;
+}
+
+.noicon{
+width:90%;
+height: 67px;
+/* left: 418px; */
+top: 8px;
+}
+.gray-vertical{
+width: 10%;
+height: 95px;
+/* left: 4180px;
+top: 8px; */
+background: #cacaca;
+border-radius: 2px;
+margin: 0 14px;
+}
+.division{
+    background-color: blueviolet;
+}
+
+.rotatings:active{
+    transform: rotate(-180deg);
+    transition: all 0.2s linear 0s;
+}
+/* td{
+ 
+  padding-right:10%;
+  padding-bottom: 30px;
+  font-size: medium;
+}
+th{
+  padding-right:5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #4a4a4a;
+} */
+.tblhd{
+  font-size: 1vw;
+  font-weight: 500;
+ 
+}
+.tbldt{
+  font-size: 1vw;
+  padding-top: 3rem;
+}
+
+h3{
+  color:  #4a4a4a;
+}
+.borderss:hover{
+  border: 1px solid #aebdde;
+  border-radius: 10px;
+  background-color: #f5f9ff;
+  
+}
+input:focus{
+  border: 0 !important;
+  outline: none !important;
+  appearance: none !important;
+}
+.row{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+
+}
+.classnav{
+  padding-right:45%; margin-left: 50px; margin-right: 0px;
+}
+/* media query */
+.writing{
+  font-size: 35px; font-weight: 600; width: 90%;color: #4a4a4a;line-height: 37px;
+}
+.carouseltxt{
+  font-size: 1vw;
+  width: max-content;
+
+}
+.carouseltxt2{
+  width:max-content;
+  font-size: 1vw;
+  padding-right:2%;
+  padding-bottom:76px;
+}
+.crslbtns{
+  padding-left: 25%;
+}
+img{
+  width: -webkit fit-content available;
+}
+/* img {
+  vertical-align: middle;
+  width: 100%;
+} */
+.btns{
+  color: #465e9b; background-color: #f8f4f4; width: 300px; border: 1px solid  #4a4a4a;
+}
+.txtbox{
+  font-size: 17px; padding-top: 25px; 
+}
+
+.crslbtn{
+  padding-right: 500px; padding-bottom: 35px;
+}

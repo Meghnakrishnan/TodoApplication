@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+   
+    <title>Document</title>
+    <link rel="stylesheet" href="orginal1.css">
+    <link rel="stylesheet" href="orginal2.css">
+</head>
+<body style="margin: 0;padding: 0;">
+  <div class="container-fluid navbr" style="overflow: hidden;">
+    <nav class="navbar navbar-expand-sm bg-light text-dark navbar-white fixed-top">
+        
+          <a class="navbar-brand classnav" href="#" >
+            <img src="logo.png" alt="Logo" style="width:76px;"/>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ">
+              <li class="nav-item ps-5">
+                <a class="nav-link" href="#" style="padding-right: 20px;">Help</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle ps-5" href="#" role="button" data-bs-toggle="dropdown"><img src="flag.png" alt="flag" style="height: 20px; width: auto;">Lang</img></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Link</a></li>
+                  <li><a class="dropdown-item" href="#"> link</a></li>
+                  <li><a class="dropdown-item" href="#"> link</a></li>
+                </ul>
+    
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle ps-5" href="#" role="button" data-bs-toggle="dropdown">INR</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Link</a></li>
+                  <li><a class="dropdown-item" href="#">Another link</a></li>
+                  <li><a class="dropdown-item" href="#">A third link</a></li>
+                </ul>
+              </li>
+              </li>  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle ps-5" href="#" role="button" data-bs-toggle="dropdown">Manage Booking</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Link</a></li>
+                  <li><a class="dropdown-item" href="#">Another link</a></li>
+                  <li><a class="dropdown-item" href="#">A third link</a></li>
+                </ul>
+              </li>
+              <li class="nav-item ps-5">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+            </ul>
+          </div>
+          
+        </nav>
+        </div>
+        <!-- <div class="mainn"> -->
+
+          
+         <div class="bgimg">
+            <img src="https://st.redbus.in/Images/rdc/HeroRDC.svg" alt="" class="w-100">
+            <div class="centered">Take a bus to anywhere in the world</div>
+          </div>
+          <div class="container-fluid mb-5 px-5 box" style="position: absolute;transform: translateY(-20%); margin-bottom: 400px; padding-bottom: 200px;">
+            <div class="row border rounded-2" style="border: 1px solid #cacaca ; background-color: white;">
+                <div class="col-sm-2 ps-5" style="padding: 0px;">
+                    <form>
+                      <div class="borderss" style="padding-top:20px;" >
+                        <div class="input-group">
+                            <label for="email" class="form-label" style="color: #9496a3;" >SOURCE</label> 
+                            <i class="input-group-text" style="background-color: transparent; border: none;">
+                            <img src="https://www.redbus.com/images/Location Copy.svg" alt="">
+                            <input type="text" class=""id="email" placeholder="Ex:Paris" class="colorss" style="background-color: transparent; border: none; width: fill-content;"/></i>
+                         </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="rotatings" style="width: 4%;">
+                    <img  src="https://www.redbus.com/images/toggle.svg"  alt="" style="padding-left:auto; padding-right: auto;padding-top: 45px; transform: rotate(0deg);">
+                </div>
+                <div class="col-sm-2 ">
+                    <form>
+                      <div class="borderss" style="padding-top:20px;">
+                        <div class="input-group" >
+                            <label for="email" class="form-label"style="color: #9496a3;">DESTINATION</label> 
+                            <i class="input-group-text" style="background-color: transparent; border: none;">
+                            <img src="https://www.redbus.com/images/Location Copy.svg" alt="">
+                            <input type="text" class=""id="email" placeholder="Ex:London Airport" style="background-color: transparent; border: none;"/></i>
+                         </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-1" style="width:4%; padding-left:auto; padding-right:auto;">
+                    <div class="gray-vertical"></div>
+                </div>
+                <div class="col-sm-2">
+                    <form>
+                      <div class="borderss" style="padding-top:20px;">
+                        <div class="noicon">
+                            <label for="email" class="form-label"style="color: #9496a3;">DATE</label> 
+                            <input type="text" class=""id="email" placeholder="DD/MY" style="background-color: transparent; border: none; ">
+                         </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-1" style="width:5%; padding-left:auto; padding-right:auto;">
+                    <div class="gray-vertical"></div>
+                </div>
+                <div class="col-sm-2 ">
+                    <form>
+                      <div class="borderss" style="padding-top:20px;">
+                        <div class="noicon">
+                            <label for="email" class="form-label"style="color: #9496a3;">RETURN DATE</label> 
+                            <input type="text" class=""id="email" placeholder="Optional" style="background-color: transparent;border: none; "/>
+                         </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-2">
+                    <form>
+                        <div>
+                            <button class="btn btn-danger" type="button" style="padding-right: auto;padding-left: auto; padding-top: 35px;padding-bottom: 35px;width: 130%;">SEARCH</button>
+                         </div>
+                    </form>
+                </div>
+            </div>
+        
+        </div>
+        
+
+
+
+
+          <div class="row"  style="background-color: #f6f9ff; padding-top: 50px; padding-left: 75px;">
+            <!-- <div class="col-sm-1 text-white"></div> -->
+            <div class="col-sm-1 ps-5 pt-3 ">
+              <!-- <div div="div1" style="position: relative;"> -->
+                <a href="#" style="padding-right: 100px;"><img src="https://st.redbus.in/Images/rdc/adv1.svg" alt="logo2"></a>
+            <!-- </div> -->
+            <!-- <div class="div2" style="position:absolute ;"> -->
+            </div> 
+            <div class="col-sm-3 cntr">        
+              <h5>Worldwide coverage</h5>
+              <p>Find affordable travel tickets<br>across the world, all at one<br>place</p>
+            </div>
+            <div class="col-sm-1 ps-5 pt-3 ">
+                <img src="https://st.redbus.in/Images/rdc/Anxiety-free%20travel.svg" alt="logo3" >
+            </div>
+            <div class="col-sm-3 cntr">
+              <h5>Anxiety-free travel</h5><p>We ensure your information is<br>safe and your travel is hassle<br>free, wherever you go</p>
+            </div>
+            <div class="col-sm-1 ps-5 pt-3 ">
+                <img src="https://st.redbus.in/Images/rdc/No%20hidden%20charges@3x%201.svg" alt="logo4">
+            </div>
+            <div class="col-sm-3 cntr"><h5>No hidden charges</h5><p>Find the best deals online<br> and guess what, refunds are<br>simple!</p>
+          </div>
+          </div>
+        
+      <!-- </div>  -->
+      <div class="row" style="background-color: #f4f4f4; padding-top: 50px; padding-left: 100px;">
+        <div class="col-sm-4 imgs">
+          <img src="https://st.redbus.in/Images/rdc/AirportHome.svg" alt="imagee" height="150px"></img>
+        </div>
+        <div class="col-sm-4 ps-5">
+           <h6>INTRODUCING</h6>
+           <h4 style="color: #04265f;">AIRPORT TRANSFERS</h4>
+           <p>You can travel low cost airport<br>shuttles, trains & bus to and from<br>your accomodation</p>
+        </div>
+        <div class="col-sm-4">
+          <button class="btn p-2 mt-4 btns" type="button">BOOK NOW</button>
+        </div>
+      </div>
+      <div class="row" style="padding:25px;">
+        <div class="col-sm-12">
+          <h3 style="text-align: center;">Book your journey now with the world's largest bus platform</h3>
+        </div>
+      </div>  
+
+      <!--FIRST CARD -->
+      <div class="container-fluid px-5">
+      <div class="row" style="padding: 0;">
+        <div class="col-sm-4 cntr">
+          <div class="card rounded-5" style="width:90%; height: 330px;">
+            <img class="card-img-top px-4" src="https://st.redbus.in/Images/rdc/36million.svg" alt="Card image" style="width:100%";>
+            <div class="card-body">
+              <h4 class="card-title" style="text-align: center;">36 Million</h4>
+              <p class="card-text"style="text-align: center;">happy customers globally</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 cntr" style="padding-right: 0px;">
+          <div class="card rounded-5" style="width:90%; height: 330px;">
+            <img class="card-img-top px-4 pt-4" src="https://st.redbus.in/Images/rdc/3500worldwide.svg" alt="Card image" style="width:100%">
+            <div class="card-body" style=" padding-top: 55px;">
+              <h4 class="card-title" style="text-align: center;">Over 3500</h4>
+              <p class="card-text" style="text-align: center;">bus companies worldwide</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 mb-5 cntr">
+          <div class="card rounded-5" style="width:90%; height: 330px;">
+            <img class="card-img-top pt-4 px-4" src="https://st.redbus.in/Images/rdc/100000-booked-perday.svg" alt="Card image" style="width:100%">
+            <div class="card-body" style=" padding-top: 55px;">
+              <h4 class="card-title" style="text-align: center;">100,000+</h4>
+              <p class="card-text" style="text-align: center;">tickets booked everyday</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+        <!-- FIRST CARD END -->
+        <!-- <div class="row" style="padding:35px;"> -->
+          <div class="row">
+          <div class="col-sm-12 mb-5 headng">
+            <h2 style="text-align: center; padding-left: 80px; color: #33446c;">Top Travelled Bus Routes</h2>
+          </div>
+        </div> 
+         <!-- IMAGES ANIMATION -->
+        <div class="container-fluid px-5">
+          <div class="row px-5">
+            <div class="col-sm-4">
+                <div class="styling">
+                    <img class="anmtnX" src="img1.jpeg" alt="">
+                </div>
+                <div>
+                  <span class="pt3">Buses from </span><br>
+                  <b class="pb-3" >Vienna to Bratislava</b>
+                </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="styling">
+                <img class="anmtnX" src="https://st.redbus.in/Images/rdc/Oxford-ImResizer.jpeg" alt="">
+              </div>
+              <div>
+                <span class="pt3">Buses from </span><br>
+                <b class="pb-3" >London to Oxford</b>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="styling">
+              <img class="anmtnX" src="https://st.redbus.in/Images/rdc/Prague-ImResizer.jpeg" alt="">
+            </div>
+            <div style=" margin-top: 10px;">
+                <span class="pt3">Buses from </span><br>
+                <b class="pb-5" >Berlin to Prague</b>
+            </div>
+          </div>
+          </div>
+        
+            <div class="row py-5 px-5" >
+              <div class="col-sm-4">
+                  <div class="styling">
+                      <img class="anmtnX" src="https://st.redbus.in/Images/rdc/Porto-ImResizer.jpeg" alt="">
+                  </div>
+                  <div>
+                    <span class="pt3">Buses from </span><br>
+                    <b class="pb-3" >Lisbon to Porto</b>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="styling">
+                  <img class="anmtnX" src="https://st.redbus.in/Images/rdc/Riga-ImResizer.jpeg" alt="">
+                </div>
+                <div>
+                  <span class="pt3">Buses from </span><br>
+                  <b class="pb-3" >Tallin to Riga</b>
+                </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="styling">
+                <img class="anmtnX" src="https://st.redbus.in/Images/rdc/Florence-ImResizer.jpeg" alt="">
+              </div>
+              <div>
+                  <span class="pt3">Buses from </span><br>
+                  <b class="pb-5" >Rome to Florence</b>
+              </div>
+        </div>
+      </div> 
+    </div> 
+    <!-- IMAGES ANMTN END -->
+      
+      <div class="row " style="padding:35px;">
+        <div class="col-sm-12">
+          <h2 style="text-align: center; padding-left: 5px; color: #33446c;">It's all about travel</h2>
+        </div>
+      </div> 
+      
+      <div class="container-fluid px-5">
+      <div class="row ps-4 py-3" style="border: 1px solid #d1d1d1; border-radius: 25px; width: auto;">
+        <div class="col-sm-8" style="padding-left:5px; padding-top:50px;" >
+             <h3 style="color:#4a4a4a;"> part of Makemytrip group which has been listed on <b>NASDAQ <br> 2010 </b></h3>
+        </div>   
+        <div class="col-sm-4 imgs">
+          <img src="https://st.redbus.in/Images/rdc/Nasdaq_RDC.svg" alt="">
+        </div>
+      </div>
+  
+      <div class="row ps-5 mt-4 py-3" style="border: 1px solid #d1d1d1; border-radius: 25px;">
+        <div class="col-sm-4 px-3 imgs">
+          <img src="https://st.redbus.in/Images/rdc/Partner.svg" alt="">
+        </div>
+        <div class="col-sm-8 ps-3 py-5">
+             <h3 style="color:#4a4a4a;">We have two partner companies <b>makemytrip.com and goibibo.com</b></h3>
+        </div>   
+      </div>
+
+      <div class="row  mt-4 py-3" style="border: 1px solid #d1d1d1; border-radius: 25px; width: auto; margin-left: 50px;margin-bottom: 80px;">
+        <div class="col-sm-8" style="padding-left:5px; padding-top:50px;" >
+             <h3 style="color:#4a4a4a;"> Helping people book travel and accommodation for <b>more than 20 years</b></h3>
+        </div>   
+        <div class="col-sm-4 imgs">
+          <img src="https://st.redbus.in/Images/rdc/Twentyyrs.svg" alt="">
+        </div>
+      </div>
+      </div>
+      <!-- </div> -->
+
+      <div class="row" style="background-color:#f7f7f7;margin-top: 20px;padding-bottom: 40px;padding-top: 30px;">
+        <div class="col-sm-12 " style="text-align: center;">
+          <h3 style="color: #273965;">Here’s what a few of our customers<br> have to say about us</h3>
+        </div>
+      </div>
+    
+
+     <!-- CAROUSEL -->
+     <div class="container-fluid px-5">
+     <div style="background-color:#f7f7f7;" >
+     <div id="demo" class="carousel slide carosl" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          
+          <div class="carousel-item active">
+            <div class="row mb-5">
+              
+              <div class="col-sm-4 p-2 " >
+                <div class="px-5 py-3" style="border: 1px solid #b4b0b0; border-radius: 20px; background-color: white; ">
+                      
+                <h3 class="pb-5 carouseltxt">Amazing services. Always <br>a best time with redBus</h3>
+                <b>Example heading <span class="badge bg-success"><img src="https://www.redbus.com/images/star.svg" alt=""/></span></b>
+                <p>redBus customer since 2018</p>
+                </div>
+                </div>
+                <div class="col-sm-4 p-2 " >
+                  <div class="px-5 py-3" style="border: 1px solid #b4b0b0; border-radius: 20px; background-color: white; ">
+                        
+                  <h3 class="pb-5 carouseltxt">Amazing services. Always <br>a best time with redBus</h3>
+                  <b>Example heading <span class="badge bg-success"><img src="https://www.redbus.com/images/star.svg" alt=""/></span></b>
+                  <p>redBus customer since 2018</p>
+                  </div>
+                  </div>
+  
+                  <div class="col-sm-4 p-2" >
+                    <div class="px-5 py-3" style="border: 1px solid #b4b0b0; border-radius: 20px;background-color: white;">
+                          
+                    <h3 class="pb-5 carouseltxt">Bus was clean and the<br>journey was smooth</h3>
+                    <b>Example heading <span class="badge bg-success"><img src="https://www.redbus.com/images/star.svg" alt=""/></span></b>
+                    <p>redBus customer since 2018</p>
+                    </div>
+                    </div>
+          </div>
+         </div>
+         <div class="carousel-item">
+          <div class="row mb-5">
+            <div class="col-sm-4 p-2" >
+              <div class="px-5 py-3" style="border: 1px solid #b4b0b0; border-radius: 20px; background-color: white;">
+                    
+              <h3 class="carouseltxt2">All time favorite buses</h3>
+              <b >Example heading <span class="badge bg-success"><img src="https://www.redbus.com/images/star.svg" alt=""/></span></b>
+              <p>redBus customer since 2018</p>
+              </div>
+              </div>
+              <div class="col-sm-4 p-2" >
+                <div class="px-5 py-3" style="border: 1px solid #b4b0b0; border-radius: 20px; background-color: white;">
+                      
+                <h3 class="carouseltxt2" >Perfect Ride.Best bus ever</h3>
+                <b >Example heading <span class="badge bg-success"><img src="https://www.redbus.com/images/star.svg" alt=""/></span></b>
+                <p>redBus customer since 2018</p>
+                </div>
+                </div>
+
+                <div class="col-sm-4 p-2" >
+                  <div class="px-5 py-3" style="border: 1px solid #b4b0b0; border-radius: 20px; background-color: white;">
+                        
+                  <h3 class="carouseltxt2">Punctusal and clean buses</h3>
+                  <b>Example heading <span class="badge bg-success"><img src="https://www.redbus.com/images/star.svg" alt=""/></span></b>
+                  <p>redBus customer since 2018</p>
+                  </div>
+                  </div>
+        </div>
+     </div>
+     </div>
+     <div>
+     <button class="carousel-control-prev crslbtn" type="button" data-bs-target="#demo" data-bs-slide="prev" >
+      <span class="carousel-control-prev-icon border border-dark rounded-5 p-4" ></span>
+     </button>
+    </div>
+     <button class="carousel-control-next crslbtns" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon  border border-dark rounded-5 p-4"></span>
+    </button>
+  </div>
+  </div>   
+</div> 
+  <!-- <div class="container-fluid"> -->
+  <div class="row px-5 py-5" style="background-color: white;">
+    <div class="col-sm-6 p-4 ps-5">
+      <p class="writing">We’ve partnered with the <br>world’s best bus companies</p>
+      <p style="color: #4a4a4a; font-size: 1vw;">More than 3500 trusted travel partners across trains,<br> busses, ferries and airport transfers</p>
+    </div>
+    <div class="col-sm-6 p-4 ">
+      <div class="row  pb-4">
+          <div class="col-sm-5">
+              <img src="https://st.redbus.in/Images/rdc/megabus.png" alt="" class="mw-100">
+          </div>
+          <div class="col-sm-2">
+              <img src="https://st.redbus.in/Images/rdc/alsa.png" alt="" class="mw-100">
+          </div>
+          <div class="col-sm-5">
+              <img src="https://st.redbus.in/Images/rdc/nationalexp.png" alt="" class="mw-100">
+          </div>
+        </div>
+      
+      <div class="row pb-4">
+          <div class="col-sm-4">
+              <img src="https://st.redbus.in/Images/rdc/Infobus.png" alt="" class="mw-100">
+          </div>
+          <div class="col-sm-4">
+              <img src="https://st.redbus.in/Images/rdc/Regiojet.png" alt=""class="mw-100">
+          </div>
+          <div class="col-sm-4">
+              <img src="https://st.redbus.in/Images/rdc/Avanza.png" alt=""class="mw-100">
+          </div>
+      </div>
+      <div class="row pb-4">
+          <div class="col-sm-4">
+              <img src="https://st.redbus.in/Images/rdc/IC-LogoHorizontal2x-min-1611241993%201.png" alt=""class="mw-100">
+          </div>
+          <div class="col-sm-4">
+              <img src="https://st.redbus.in/Images/rdc/logo-zingbus%201.png" alt=""class="mw-100">
+          </div>
+          <div class="col-sm-4">
+              <img src="https://st.redbus.in/Images/rdc/logo%201.png"alt=""class="mw-100">
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-4">
+              <img src="https://st.redbus.in/Images/rdc/640px-Logo_BlaBlaBus_-_2019%201.png" alt=""class="mw-100">
+          </div>
+          <div class="col-sm-4">
+              <img src="https://st.redbus.in/Images/rdc/logo%202.png" alt=""class="mw-100">
+          </div>
+          <div class="col-sm-4">
+              <img src="https://st.redbus.in/Images/rdc/logo_sindbad_hr-poziom%201.png" alt=""class="mw-100">
+          </div>
+      </div>
+    </div>
+
+  </div>
+  
+</div>
+
+<!-- <div class="row">
+  <div class="col-sm-12">
+    <img src="https://st.redbus.in/Images/rdc/weare.jpg" alt="" style="width:100%;">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <p style="font-size: 35px; font-weight: 600; width: max-content;color: #4a4a4a;padding-left: 500px;margin-top: 50px;">We are about bus travel</p>
+    redBus is the best platform in the world for booking bus tickets online. redBus is serving 6 countries around the world (India, Malaysia, Singapore, Indonesia, Peru, and Colombia), and would be launching bus ticket booking services in more countries. 
+    Trusted by over 18 million customers worldwide, redBus offers an easy, fast, and secure platform for booking cheap bus tickets. You only need to select your origin, destination, and date of departure, and you will find plenty of buses to travel by within a few seconds. You can book bus based on your preferred schedule, choose a pick-up and dropping point, preferred bus type, and book a bus ticket online with just a few clicks!
+  </div>
+</div> -->
+
+<div class="row pt-5" style="background-color: white;">
+  <div class="col-sm-6" style="padding-left: 10%;">
+    <img src="logo.png" alt="" style="width:10%;"/>
+    <p class="txtbox">
+      redBus is the world's largest online bus<br> 
+      ticket booking service trusted by over 25 <br>
+      million happy customers globally. redBus<br> offers bus  
+      ticket booking through its <br>
+      website,iOS and Android mobile apps for <br>
+      all major routes.
+    </p>
+
+    <div class="pe-5">
+      <img src="https://st.redbus.in/Images/rdc/Group%2077.svg" alt="">
+      <img src="https://st.redbus.in/Images/rdc/Group%2079.svg" alt="">
+      <img src="https://st.redbus.in/Images/rdc/Group%2078.svg" alt="">
+    </div>
+</div>
+    <div class="col-sm-6">
+      <!-- <div>
+        <table>
+          <tr>
+          <th>About redBus</th>
+          <th class="ps-3">info</th>
+          <th>Global sites</th>
+          <th>Our partner</th>
+        </tr>
+        <tr>
+          <td>About Us</td>
+          <td>T&C</td>
+          <td>India</td>
+          <td>Goibibo</td>
+        </tr>
+        <tr>
+          <td>Contact Us</td>
+          <td>Privacy Policy</td>
+          <td>Syngapore</td>
+          <td>Makemytrip</td>
+        </tr>
+        <tr>
+          <td>Mobile version</td>
+          <td>Cooky Policy</td>
+          <td colspan="2">Malaysia</td>  
+        </tr>
+        <tr>
+          <td rowspan="2"></td>
+          <td>FAQ</td>
+          <td colspan="2">Indonasia</td>  
+        </tr>
+        <tr>
+          <td rowpan="2">Blog</td>
+          <td colspan="2">Peru</td>  
+        </tr>
+        <tr>
+          <td colspan="2"></td> 
+          <td>Colombia</td> 
+        </tr>
+        </table>
+      </div>
+      
+    </div> -->
+
+    
+      <div class="row tblhd">
+        <div class="col-sm-3">
+          About redBus
+        </div>
+        <div class="col-sm-3">
+         info
+        </div>
+        <div class="col-sm-3">
+          Global Sites
+        </div>
+        <div class="col-sm-3">
+          Our Partners
+        </div>
+        
+      </div>
+
+      <div class="row tbldt">
+        <div class="col-sm-3">
+          About Us
+        </div>
+        <div class="col-sm-3">
+          T&C
+        </div>
+        <div class="col-sm-3">
+         India
+        </div>
+        <div class="col-sm-3">
+         Goibibo
+        </div>
+        
+      </div> 
+
+      <div class="row tbldt">
+        <div class="col-sm-3">
+          Contact Us
+        </div>
+        <div class="col-sm-3">
+          Privacy Policy
+        </div>
+        <div class="col-sm-3">
+        Singapore
+        </div>
+        <div class="col-sm-3">
+         Makemytrip
+        </div>
+        
+      </div> 
+
+
+      <div class="row tbldt">
+        <div class="col-sm-3">
+         Mobile version
+        </div>
+        <div class="col-sm-3">
+          Cooky policy
+        </div>
+        <div class="col-6">
+          Maleysia
+        </div>
+      </div> 
+
+      <div class="row tbldt">
+        <div class="col-sm-3">
+          
+        </div>
+        <div class="col-sm-3">
+          FAQ
+        </div>
+        <div class="col-sm-6">
+          Indonasia
+        </div>
+      </div> 
+
+      <div class="row tbldt">
+        <div class="col-sm-3">
+          
+        </div>
+        <div class="col-sm-3">
+         Blog
+        </div>
+        <div class="col-sm-6">
+        Peru
+        </div>
+      </div> 
+
+      <div class="row tbldt">
+        <div class="col-sm-6">
+          
+        </div>
+        <div class="col-sm-6">
+          Colombia
+        </div>
+        
+      </div> 
+      
+
+
+
+    </div>
+  </div>
+
+</div>
+  </div>
+</body>
+</html>
